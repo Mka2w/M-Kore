@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MKore - Обзоры</title>
+    <link rel="stylesheet" href="style02.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="particles-bg"></div>
+    
+    <header class="glass-header">
+        <div class="logo">
+            <span class="logo-m">M</span>
+            <span class="logo-diamond">◆</span>
+            <span class="logo-kore">Kore</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="MkoreM.html">Мое мнение</a></li>
+                <li><a href="MkoreJanr.html">Жанры</a></li>
+                <li><a href="MkoreOps.html" class="active">Обзоры</a></li>
+                <li><a href="MkoreBlog.html">Сообщество</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="breadcrumbs">
+            <a href="index.html">Главная</a> > Обзоры
+        </div>
+        
+        <section class="reviews-section">
+            <h1>Подробные обзоры</h1>
+            
+            <article class="game-review glass-card" id="witcher">
+                <div class="review-header">
+                    <h2>The Witcher 3: Wild Hunt</h2>
+                    <div class="rating">9.5/10</div>
+                </div>
+                
+                <div class="game-info">
+                    <img src="images/witcher-large.jpg" alt="The Witcher 3">
+                    <div class="details">
+                        <p><strong>Жанр:</strong> Action/RPG</p>
+                        <p><strong>Год выхода:</strong> 2015</p>
+                        <p><strong>Разработчик:</strong> CD Projekt RED</p>
+                        <p><strong>Платформы:</strong> PC, PS4, Xbox One, Switch</p>
+                    </div>
+                </div>
+
+                <div class="review-content">
+                    <h3>Мои впечатления</h3>
+                    <p>The Witcher 3 - это культовая RPG с открытым миром, завершающая историю Геральта из Ривии...</p>
+                    <a href="MkoreM.html" class="glow-btn">← Вернуться к списку</a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+ <h1>Обзоры игроков</h1>
+        
+        <!-- Система фильтрации -->
+        <div class="filters glass-card">
+            <div class="filter-group">
+                <h3>Тип отзыва:</h3>
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="positive">Положительные (8-10★)</button>
+                <button class="filter-btn" data-filter="negative">Отрицательные (1-4★)</button>
+                <button class="filter-btn" data-filter="neutral">Нейтральные (5-7★)</button>
+            </div>
+            <div class="filter-group">
+                <h3>Платформа:</h3>
+                <button class="filter-btn" data-filter="steam">Steam</button>
+                <button class="filter-btn" data-filter="epic">Epic Games</button>
+                <button class="filter-btn" data-filter="console">Консоли</button>
+            </div>
+        </div>
+
+        <!-- The Witcher 3 -->
+        <section class="game-reviews" id="witcher-reviews">
+            <h2>The Witcher 3: Wild Hunt</h2>
+            
+            <article class="user-review glass-card positive" data-platform="steam">
+                <div class="review-header">
+                    <img src="images/avatars/avatar1.jpg" alt="Аватар" class="avatar">
+                    <div class="reviewer-info">
+                        <h3>Алексей "Ведьмак" Петров</h3>
+                        <div class="review-meta">
+                            <span class="rating">10/10 ★★★★★</span>
+                            <span class="platform">Steam</span>
+                            <span class="hours">250 часов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>"Игра, перевернувшая мое представление о RPG. Прошел все три раза, и каждый раз находил новые детали. Квест с Бароном - это шедевр сторителлинга!"</p>
+                    <div class="review-footer">
+                        <span class="date">Опубликовано: 15.03.2023</span>
+                        <span class="likes">👍 142</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="user-review glass-card negative" data-platform="steam">
+                <div class="review-header">
+                    <img src="images/avatars/avatar2.jpg" alt="Аватар" class="avatar">
+                    <div class="reviewer-info">
+                        <h3>Мария "Ciri" Иванова</h3>
+                        <div class="review-meta">
+                            <span class="rating">4/10 ★★☆☆☆</span>
+                            <span class="platform">Steam</span>
+                            <span class="hours">18 часов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>"Не понимаю всеобщего восторга. Управление в бою неудобное, инвентарь - кошмар, а Геральт двигается как танк. Графика хорошая, но играть некомфортно."</p>
+                    <div class="review-footer">
+                        <span class="date">Опубликовано: 02.06.2023</span>
+                        <span class="likes">👍 23</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Elden Ring -->
+        <section class="game-reviews" id="elden-reviews">
+            <h2>Elden Ring</h2>
+            
+            <article class="user-review glass-card positive" data-platform="steam">
+                <div class="review-header">
+                    <img src="images/avatars/avatar3.jpg" alt="Аватар" class="avatar">
+                    <div class="reviewer-info">
+                        <h3>Дмитрий "Tarnished" Соколов</h3>
+                        <div class="review-meta">
+                            <span class="rating">9/10 ★★★★☆</span>
+                            <span class="platform">Steam</span>
+                            <span class="hours">180 часов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>"FromSoftware сделали невозможное - открытый мир, который действительно хочется исследовать. Каждый дюйм карты продуман, а битвы с боссами - это чистый адреналин."</p>
+                    <div class="review-footer">
+                        <span class="date">Опубликовано: 10.04.2023</span>
+                        <span class="likes">👍 98</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Остальные игры в таком же формате -->
+
+    </main>
+
+    <script>
+        // Фильтрация отзывов
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                // Удаляем активный класс у всех кнопок в группе
+                this.parentNode.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                
+                const filterType = this.parentNode.querySelector('h3').textContent;
+                const filterValue = this.dataset.filter;
+                
+                document.querySelectorAll('.user-review').forEach(review => {
+                    let showReview = true;
+                    
+                    // Фильтр по типу отзыва
+                    if (filterType === 'Тип отзыва:') {
+                        if (filterValue === 'positive' && !review.classList.contains('positive')) showReview = false;
+                        if (filterValue === 'negative' && !review.classList.contains('negative')) showReview = false;
+                        if (filterValue === 'neutral' && !review.classList.contains('neutral')) showReview = false;
+                    }
+                    
+                    // Фильтр по платформе
+                    if (filterType === 'Платформа:') {
+                        if (filterValue !== 'all' && review.dataset.platform !== filterValue) showReview = false;
+                    }
+                    
+                    review.style.display = showReview ? 'block' : 'none';
+                });
+            });
+        });
+    </script>
+
+
+    <footer class="glass-footer">
+        <p>© 2025 MKore GameHub. Все права защищены.</p>
+    </footer>
+
+    
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

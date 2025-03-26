@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MKore - Сообщество</title>
+    <link rel="stylesheet" href="style02.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="particles-bg"></div>
+    
+    <header class="glass-header">
+        <div class="logo">
+            <span class="logo-m">M</span>
+            <span class="logo-diamond">◆</span>
+            <span class="logo-kore">Kore</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="MkoreM.html">Мое мнение</a></li>
+                <li><a href="MkoreJanr.html">Жанры</a></li>
+                <li><a href="MkoreOps.html">Обзоры</a></li>
+                <li><a href="MkoreBlog.html" class="active">Сообщество</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="breadcrumbs">
+            <a href="index.html">Главная</a> > Сообщество
+        </div>
+        
+        <section class="community-section">
+            <h1>Обсуждения</h1>
+            
+            <div class="community-form glass-card">
+                <h2>Оставить отзыв</h2>
+                <form id="reviewForm">
+                    <input type="text" placeholder="Ваше имя" required>
+                    <select required>
+                        <option value="">Выберите игру</option>
+                        <option value="witcher">The Witcher 3</option>
+                        <option value="elden-ring">Elden Ring</option>
+                    </select>
+                    <textarea placeholder="Ваш отзыв" required></textarea>
+                    <div class="rating-selector">
+                        <span>Оценка:</span>
+                        <select name="rating" required>
+                            <option value="">Выберите</option>
+                            <option value="10">10/10</option>
+                            <option value="9">9/10</option>
+                            <!-- Другие варианты -->
+                        </select>
+                    </div>
+                    <button type="submit" class="glow-btn">Отправить</button>
+                </form>
+            </div>
+
+            <div class="user-reviews">
+                <article class="user-review glass-card">
+                    <h3>The Witcher 3</h3>
+                    <div class="review-meta">
+                        <span class="author">Алексей</span>
+                        <span class="rating">★★★★★</span>
+                    </div>
+                    <p>Лучшая RPG в которую я играл. Сюжет просто потрясающий...</p>
+                    <a href="MkoreOps.html#witcher" class="glow-btn">Читать обзор</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <p>© 2025 MKore GameHub. Все права защищены.</p>
+    </footer>
+    
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
