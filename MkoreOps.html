@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="icon" type="image/png" sizes="32x32" href="C:\Users\anoni\OneDrive\Изображения\Mkore/mk.jpg">
+<link rel="icon" type="image/png" sizes="16x16" href="C:\Users\anoni\OneDrive\Изображения\Mkore/mk2.jpg">
+<link rel="apple-touch-icon" sizes="180x180" href="C:\Users\anoni\OneDrive\Изображения\Mkore/mk2.jpg">
+<link rel="manifest" href="images/favicon/site.webmanifest">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MKore - Обзоры</title>
+    <link rel="stylesheet" href="style02.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="particles-bg"></div>
+    
+    <header class="glass-header">
+        <div class="logo">
+            <span class="logo-m">M</span>
+            <span class="logo-diamond">◆</span>
+            <span class="logo-kore">Kore</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="MkoreM.html">Мое мнение</a></li>
+                <li><a href="MkoreJanr.html">Жанры</a></li>
+                <li><a href="MkoreOps.html" class="active">Обзоры</a></li>
+                <li><a href="MkoreBlog.html">Сообщество</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+
+ <h1>Обзоры игроков</h1>
+        <!-- Система фильтрации -->
+        <div class="filters glass-card">
+            <div class="filter-group">
+                <h3>Тип отзыва:</h3>
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="positive">Положительные (8-10★)</button>
+                <button class="filter-btn" data-filter="negative">Отрицательные (1-4★)</button>
+                <button class="filter-btn" data-filter="neutral">Нейтральные (5-7★)</button>
+            </div>
+            <div class="filter-group">
+                <h3>Платформа:</h3>
+                <button class="filter-btn" data-filter="steam">Steam</button>
+                <button class="filter-btn" data-filter="epic">Epic Games</button>
+                <button class="filter-btn" data-filter="console">Консоли</button>
+            </div>
+        </div>
+
+        <!-- The Witcher 3 -->
+        <section class="game-reviews" id="witcher-reviews">
+            <h2>The Witcher 3: Wild Hunt</h2>
+            
+            <article class="user-review glass-card positive" data-platform="steam">
+                <div class="review-header">
+                    
+                    <div class="reviewer-info">
+                        <h3>Алексей "Ведьмак" Петров</h3>
+                        <div class="review-meta">
+                            <span class="rating">10/10 ★★★★★</span>
+                            <span class="platform">Steam</span>
+                            <span class="hours">250 часов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>"Игра, перевернувшая мое представление о RPG. Прошел все три раза, и каждый раз находил новые детали. Квест с Бароном - это шедевр сторителлинга!"</p>
+                    <div class="review-footer">
+                        <span class="date">Опубликовано: 15.03.2023</span>
+                        <span class="likes">👍 142</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="user-review glass-card negative" data-platform="steam">
+                <div class="review-header">
+                   
+                    <div class="reviewer-info">
+                        <h3>Мария "Ciri" Иванова</h3>
+                        <div class="review-meta">
+                            <span class="rating">4/10 ★★☆☆☆</span>
+                            <span class="platform">Steam</span>
+                            <span class="hours">18 часов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>"Не понимаю всеобщего восторга. Управление в бою неудобное, инвентарь - кошмар, а Геральт двигается как танк. Графика хорошая, но играть некомфортно."</p>
+                    <div class="review-footer">
+                        <span class="date">Опубликовано: 02.06.2023</span>
+                        <span class="likes">👍 23</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Elden Ring -->
+        <section class="game-reviews" id="elden-reviews">
+            <h2>Elden Ring</h2>
+            
+            <article class="user-review glass-card positive" data-platform="steam">
+                <div class="review-header">
+                    
+                    <div class="reviewer-info">
+                        <h3>Дмитрий "Tarnished" Соколов</h3>
+                        <div class="review-meta">
+                            <span class="rating">9/10 ★★★★☆</span>
+                            <span class="platform">Steam</span>
+                            <span class="hours">180 часов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>"FromSoftware сделали невозможное - открытый мир, который действительно хочется исследовать. Каждый дюйм карты продуман, а битвы с боссами - это чистый адреналин."</p>
+                    <div class="review-footer">
+                        <span class="date">Опубликовано: 10.04.2023</span>
+                        <span class="likes">👍 98</span>
+                    </div>
+                </div>
+            </article>
+       
+          <section class="game-reviews" id="elden-reviews">
+
+            <article class="user-review glass-card positive" data-platform="steam">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <h3>SoulsMaster</h3>
+                        <div class="review-meta">
+                            <span class="rating">9/10 ★★★★☆</span>
+                            <span class="platform">Steam</span>
+                            <span class="hours">200 часов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>"FromSoftware совершили невозможное - перенесли свою формулу в открытый мир. Исследование каждого уголка Лиурнии приносит невероятное удовольствие."</p>
+                    <div class="review-footer">
+                        <span class="date">Опубликовано: 10.04.2023</span>
+                        <span class="likes">👍 189</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="user-review glass-card negative" data-platform="console">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <h3>CasualGamer</h3>
+                        <div class="review-meta">
+                            <span class="rating">3/10 ★☆☆☆☆</span>
+                            <span class="platform">PS5</span>
+                            <span class="hours">15 часов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>"Слишком сложно и непонятно. Никаких объяснений, куда идти и что делать. Графика красивая, но играть невозможно без гайдов."</p>
+                    <div class="review-footer">
+                        <span class="date">Опубликовано: 22.05.2023</span>
+                        <span class="likes">👍 42</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Forza Horizon 5 -->
+        <section class="game-reviews" id="forza-reviews">
+            <h2>Forza Horizon 5</h2>
+            
+            <article class="user-review glass-card positive" data-platform="steam">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <h3>SpeedDemon</h3>
+                        <div class="review-meta">
+                            <span class="rating">9/10 ★★★★☆</span>
+                            <span class="platform">Steam</span>
+                            <span class="hours">120 часов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>"Лучшие цифровые каникулы в Мексике! Физика вождения идеально сбалансирована между реализмом и аркадностью. Визуалы просто потрясающие."</p>
+                    <div class="review-footer">
+                        <span class="date">Опубликовано: 15.11.2022</span>
+                        <span class="likes">👍 156</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="user-review glass-card neutral" data-platform="console">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <h3>RacingFan</h3>
+                        <div class="review-meta">
+                            <span class="rating">6/10 ★★★☆☆</span>
+                            <span class="platform">Xbox Series X</span>
+                            <span class="hours">40 часов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>"Хорошая игра, но слишком похожа на предыдущие части. Нововведения минимальны, а ивенты быстро надоедают. Графика на высоте."</p>
+                    <div class="review-footer">
+                        <span class="date">Опубликовано: 30.12.2022</span>
+                        <span class="likes">👍 67</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- SnowRunner -->
+        <section class="game-reviews" id="snowrunner-reviews">
+            <h2>SnowRunner</h2>
+            
+            <article class="user-review glass-card positive" data-platform="epic">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <h3>OffroadKing</h3>
+                        <div class="review-meta">
+                            <span class="rating">8/10 ★★★★☆</span>
+                            <span class="platform">Epic Games</span>
+                            <span class="hours">90 часов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>"Неожиданно медитативный опыт. Преодоление грязевых болот и снежных заносов требует терпения, но дарит уникальное чувство достижения."</p>
+                    <div class="review-footer">
+                        <span class="date">Опубликовано: 05.06.2023</span>
+                        <span class="likes">👍 112</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="user-review glass-card negative" data-platform="steam">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <h3>FastDriver</h3>
+                        <div class="review-meta">
+                            <span class="rating">4/10 ★★☆☆☆</span>
+                            <span class="platform">Steam</span>
+                            <span class="hours">10 часов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>"Слишком медленно и нудно. Физика реалистичная, но прохождение одного задания занимает часы. Не для всех."</p>
+                    <div class="review-footer">
+                        <span class="date">Опубликовано: 18.07.2023</span>
+                        <span class="likes">👍 34</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Warface -->
+        <section class="game-reviews" id="warface-reviews">
+            <h2>Warface</h2>
+            
+            <article class="user-review glass-card neutral" data-platform="steam">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <h3>FPS_Player</h3>
+                        <div class="review-meta">
+                            <span class="rating">6/10 ★★★☆☆</span>
+                            <span class="platform">Steam</span>
+                            <span class="hours">500 часов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>"Играть можно, но монетизация убивает весь баланс. PvP иногда бывает веселым, но платное оружие слишком OP. Графика устарела."</p>
+                    <div class="review-footer">
+                        <span class="date">Опубликовано: 22.03.2023</span>
+                        <span class="likes">👍 89</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="user-review glass-card negative" data-platform="steam">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <h3>OldSchoolShooter</h3>
+                        <div class="review-meta">
+                            <span class="rating">2/10 ★☆☆☆☆</span>
+                            <span class="platform">Steam</span>
+                            <span class="hours">50 часов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>"Pay-to-win в худшем виде. Читеры, лаги и бесконечные донатные предложения. Лучше поиграть в CS2 или Valorant."</p>
+                    <div class="review-footer">
+                        <span class="date">Опубликовано: 14.05.2023</span>
+                        <span class="likes">👍 127</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Counter-Strike 2 -->
+        <section class="game-reviews" id="cs2-reviews">
+            <h2>Counter-Strike 2</h2>
+            
+            <article class="user-review glass-card positive" data-platform="steam">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <h3>ProGamer</h3>
+                        <div class="review-meta">
+                            <span class="rating">9/10 ★★★★☆</span>
+                            <span class="platform">Steam</span>
+                            <span class="hours">2000 часов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>"Лучший тактический шутер всех времен. Обновление на Source 2 сделало игру еще лучше. Геймплей чистый и конкурентный."</p>
+                    <div class="review-footer">
+                        <span class="date">Опубликовано: 01.10.2023</span>
+                        <span class="likes">👍 345</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="user-review glass-card neutral" data-platform="steam">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <h3>CasualCS</h3>
+                        <div class="review-meta">
+                            <span class="rating">7/10 ★★★☆☆</span>
+                            <span class="platform">Steam</span>
+                            <span class="hours">300 часов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>"Хорошее обновление, но не революция. Движок стал лучше, но старые проблемы с токсичным комьюнити остались."</p>
+                    <div class="review-footer">
+                        <span class="date">Опубликовано: 15.10.2023</span>
+                        <span class="likes">👍 98</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Minecraft -->
+        <section class="game-reviews" id="minecraft-reviews">
+            <h2>Minecraft</h2>
+            
+            <article class="user-review glass-card positive" data-platform="console">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <h3>BlockBuilder</h3>
+                        <div class="review-meta">
+                            <span class="rating">10/10 ★★★★★</span>
+                            <span class="platform">Switch</span>
+                            <span class="hours">500+ часов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>"Вечная классика. Каждое обновление добавляет что-то новое, но сохраняет магию простоты. Лучший цифровой конструктор для всех возрастов."</p>
+                    <div class="review-footer">
+                        <span class="date">Опубликовано: 12.01.2023</span>
+                        <span class="likes">👍 278</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="user-review glass-card neutral" data-platform="steam">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <h3>GraphicsLover</h3>
+                        <div class="review-meta">
+                            <span class="rating">6/10 ★★★☆☆</span>
+                            <span class="platform">PC</span>
+                            <span class="hours">50 часов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>"Креативность на высоте, но графика слишком примитивна. С модами игра становится интереснее, но базовый вариант уже устарел."</p>
+                    <div class="review-footer">
+                        <span class="date">Опубликовано: 22.03.2023</span>
+                        <span class="likes">👍 45</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Scrap Mechanic -->
+        <section class="game-reviews" id="scrap-reviews">
+            <h2>Scrap Mechanic</h2>
+            
+            <article class="user-review glass-card positive" data-platform="steam">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <h3>MechanicFan</h3>
+                        <div class="review-meta">
+                            <span class="rating">8/10 ★★★★☆</span>
+                            <span class="platform">Steam</span>
+                            <span class="hours">150 часов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>"Отличная песочница для творческих людей. Физика объектов реалистичная, а возможности постройки почти безграничны."</p>
+                    <div class="review-footer">
+                        <span class="date">Опубликовано: 10.02.2023</span>
+                        <span class="likes">👍 87</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="user-review glass-card neutral" data-platform="steam">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <h3>SurvivalGamer</h3>
+                        <div class="review-meta">
+                            <span class="rating">5/10 ★★★☆☆</span>
+                            <span class="platform">Steam</span>
+                            <span class="hours">30 часов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>"Интересная концепция, но не хватает контента. После постройки нескольких механизмов становится скучно. Нужно больше целей и задач."</p>
+                    <div class="review-footer">
+                        <span class="date">Опубликовано: 05.05.2023</span>
+                        <span class="likes">👍 23</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <script>
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                this.parentNode.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                
+                const filterType = this.parentNode.querySelector('h3').textContent;
+                const filterValue = this.dataset.filter;
+                
+                document.querySelectorAll('.user-review').forEach(review => {
+                    let showReview = true;
+                    
+                    if (filterType === 'Тип отзыва:') {
+                        if (filterValue === 'positive' && !review.classList.contains('positive')) showReview = false;
+                        if (filterValue === 'negative' && !review.classList.contains('negative')) showReview = false;
+                        if (filterValue === 'neutral' && !review.classList.contains('neutral')) showReview = false;
+                    }
+                    
+                    if (filterType === 'Платформа:') {
+                        if (filterValue !== 'all' && review.dataset.platform !== filterValue) showReview = false;
+                    }
+                    
+                    review.style.display = showReview ? 'block' : 'none';
+                });
+            });
+        });
+    </script>
+        <!-- Остальные игры в таком же формате -->
+
+    </main>
+
+    <script>
+        // Фильтрация отзывов
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                // Удаляем активный класс у всех кнопок в группе
+                this.parentNode.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                
+                const filterType = this.parentNode.querySelector('h3').textContent;
+                const filterValue = this.dataset.filter;
+                
+                document.querySelectorAll('.user-review').forEach(review => {
+                    let showReview = true;
+                    
+                    // Фильтр по типу отзыва
+                    if (filterType === 'Тип отзыва:') {
+                        if (filterValue === 'positive' && !review.classList.contains('positive')) showReview = false;
+                        if (filterValue === 'negative' && !review.classList.contains('negative')) showReview = false;
+                        if (filterValue === 'neutral' && !review.classList.contains('neutral')) showReview = false;
+                    }
+                    
+                    // Фильтр по платформе
+                    if (filterType === 'Платформа:') {
+                        if (filterValue !== 'all' && review.dataset.platform !== filterValue) showReview = false;
+                    }
+                    
+                    review.style.display = showReview ? 'block' : 'none';
+                });
+            });
+        });
+    </script>
+
+
+   <footer class="glass-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>MKore GameHub</h3>
+                <p>Честные обзоры игр без рекламы</p>
+            </div>
+            <div class="footer-section">
+                <h3>Навигация</h3>
+                <a href="index.html">Главная</a>
+                <a href="MkoreOps.html">Обзоры</a>
+                <a href="MkoreJanr.html">Жанры</a>
+            </div>
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">mkore32ru@gmail.com</a>
+                <div class="social-links">
+                    <a href="https://vk.com/mkarpikov2" aria-label="VK"><img src="C:\Users\anoni\OneDrive\Изображения\Mkore/vk1.png" alt="VK"></a>
+                    <a href="https://t.me/+oY-vKFouEnVkMzcy" aria-label="Telegram"><img src="C:\Users\anoni\OneDrive\Изображения\Mkore/tg1.png" alt="Telegram"></a>
+                </div>
+            </div>
+        </div>
+
+    <footer class="glass-footer">
+         <footer>
+        <p>© 2025 MKore GameHub Все права защищены.</p>
+    </footer>
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
