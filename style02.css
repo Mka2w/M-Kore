@@ -1,6 +1,6 @@
 /* Основные стили */
 :root {
-    --primary-color:e5581aff;
+    --primary-color: #e5581aff;
     --secondary-color: #00FFC2;
     --dark-bg: #1A1A2E;
     --glass-bg: rgba(255, 255, 255, 0.1);
